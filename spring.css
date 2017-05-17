@@ -1,0 +1,49 @@
+.navbar-nav {
+	align-content: center;
+}
+
+.home-section {
+	height: 100%;
+	padding-top: 100px;
+	text-align: center;
+	background: #5ACEB6;
+}
+
+
+.bot-section {
+	height: 100%;
+	padding-top: 100px;
+	text-align: center;
+	background: #fff;
+}
+
+.commands-section {
+	height: 100%;
+	padding-top: 100px;
+	text-align: center;
+	background: #B54D46;
+}
+
+.footer-section {
+	height: 100%;
+	padding-top: 100px;
+	text-align: center;
+	background: #fff;
+}
+
+
+/*hr {
+	width: 100%;
+	border-top: 2px solid rgba(34, 34, 34, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);     Adds the effect of having a shadow.  Works best on lighter backgrounds.
+    margin-top: 0;
+    margin-bottom: 0;
+}*/
+
+#content {
+	text-align: center;
+	/*padding-top: 25%;*/
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 6px 10px rgba(0,0,0,0.1);           /*creates a good looking gray shadow effect*/
+				
+}
