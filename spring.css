@@ -72,6 +72,11 @@ Bot Section - Start
 	background: #fff;
 }
 
+#bot p {
+	color: black;
+	text-shadow: none;
+}
+
 .blocktext {
 	margin: 0 auto;
 	width: 550px;
