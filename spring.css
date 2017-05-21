@@ -135,6 +135,18 @@ Bot Section - Start
 	color: #ABABAC;
 }
 
+.border {
+	border-left: 5px solid #E65100;
+	padding-left: 5px;
+	margin-top: 5px;
+	border-radius: 3px;
+}
+
+img {
+	height: 40px;
+	width: auto;
+}
+
 /****************************
 
 Bot Section - End
