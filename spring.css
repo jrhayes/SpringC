@@ -3,8 +3,7 @@
 }
 
 .blocktext {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	width: 550px;
 }
 
@@ -18,7 +17,8 @@
 
 #bot {
 	height: 100%;
-	padding-top: 100px;
+	padding-top: 0px;
+	padding-bottom: 30px;
 	background: #fff;
 }
 
@@ -39,7 +39,7 @@
 
 .chat {
 	width: 550px;
-	padding: 5px 5px 5px 0px;
+	padding: 8px 5px 8px 0px;
 	position: relative;
 }
 
@@ -49,12 +49,13 @@
 	position: relative;
 	float: left;
 	top: 50%;
+	border-radius: 10%;
 }
 
 .bot-head {
 	margin-top: -4px;
 	margin-bottom: 0px;
-	margin-left: 40px;
+	margin-left: 50px;
 	vertical-align: text-top;
 	position: relative;
 	
@@ -63,7 +64,7 @@
 
 .bot-text {
 	margin-bottom: 0px;
-	margin-left: 40px;
+	margin-left: 50px;
 	
 }
 
@@ -87,5 +88,11 @@
 .border {
 	border-left: 5px solid #E65100;
 	padding-left: 5px;
+	margin-top: 5px;
 	border-radius: 3px;
+}
+
+img {
+	height: 40px;
+	width: auto;
 }
