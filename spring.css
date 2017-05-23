@@ -68,16 +68,42 @@ p {
 
 .commands-section {
 	height: 100%;
-	padding-top: 100px;
+	padding-top: 1.5%;
 	text-align: center;
 	background: #B54D46;
 }
 
+.commands-section h1 {
+	padding-bottom: 1.5%;
+}
+
+.commands-section p {
+	color: #000;
+	text-shadow: none;
+	padding: none;
+	margin: none;
+	font-family: "courier new", "courier";
+	font-weight: bold;
+}
+
+.card-img-top {
+	height: 200px;
+	width: 200px;
+}
+
 .footer-section {
 	height: 100%;
-	padding-top: 100px;
+	padding-top: 2%;
 	text-align: center;
 	background: #fff;
+}
+
+.footer-section p {
+	color: black;
+	font-size: 14px;
+	text-decoration: none;
+	text-shadow: none;
+	padding: 1.5%;
 }
 
 
