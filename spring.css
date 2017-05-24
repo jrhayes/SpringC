@@ -107,9 +107,17 @@ Bot Section - Start
 	position: relative;
 }
 
-.bot-text {
+.user-text {
 	margin-bottom: 0px;
 	margin-left: 50px;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+}
+
+.bot-text {
+	display: inline-block;
+	margin-left: 8px;
+	margin-top: 50px;
 	font-weight: 400;
 	font-family: 'Oswald', sans-serif;
 }
@@ -119,13 +127,15 @@ Bot Section - Start
 	font-family: 'Oswald', sans-serif;
 }
 
-.time {
-	font-weight: 200;
-	font-family: 'Oswald', sans-serif;
-}
 
 .time {
 	font-weight: 200;
+	font-family: 'Oswald', sans-serif;
+	font-size: 13px;
+}
+
+.info {
+	font-weight: 300;
 	font-family: 'Oswald', sans-serif;
 	font-size: 13px;
 }
@@ -137,9 +147,14 @@ Bot Section - Start
 
 .border {
 	border-left: 5px solid #E65100;
-	padding-left: 5px;
+	padding-left: 15px;
+	padding-top: 15px;
 	margin-top: 5px;
+	margin-left: 50px;
 	border-radius: 3px;
+	height: auto;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
 }
 
 img {
