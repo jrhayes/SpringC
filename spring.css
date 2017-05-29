@@ -31,6 +31,7 @@ Jumbotron Section
 .home-section {
 	padding-top: 50px;
 	text-align: center;
+	
 }
 
 .main {
@@ -70,6 +71,7 @@ Bot Section - Start
 	padding-top: 0px;
 	padding-bottom: 30px;
 	background: #fff;
+
 }
 
 #bot p {
@@ -79,15 +81,19 @@ Bot Section - Start
 
 .blocktext {
 	margin: 0 auto;
-	width: 550px;
+	width: auto;
 }
 
 
 
 .chat {
-	width: 550px;
+	width: auto;
 	padding: 8px 5px 8px 0px;
 	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 
