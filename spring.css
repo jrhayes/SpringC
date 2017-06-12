@@ -74,12 +74,22 @@ Bot Section - Start
 	padding-top: 0px;
 	padding-bottom: 30px;
 	background: #fff;
-
+	overflow: hidden;
 }
 
 #bot p {
 	color: black;
 	text-shadow: none;
+}
+
+#gerenuk {
+	position: absolute;
+	height: 550px;
+	margin-bottom: -250px;
+	margin-right: -537px;
+	right: 0;
+	bottom: 0;
+	opacity: 0.3;
 }
 
 .blocktext {
